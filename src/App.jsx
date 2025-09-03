@@ -1,10 +1,10 @@
 import React from 'react';
+import Hero from './sections/hero';
 
 const App = () => {
   return (
     <div>
-      <h1 className='text-red-500'>Welcome to My Portfolio</h1>
-      <p>This is a brief introduction about myself.</p>
+      <Hero></Hero>
     </div>
   );
 };
