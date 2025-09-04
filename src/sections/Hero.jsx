@@ -1,10 +1,12 @@
 import React from 'react';
 import { words } from '../constants/index';
+import Button from '../components/Button';
+import HeroExperience from '../components/HeroModels/HeroExperience';
 
 
 const Hero = () => {
     return (
-        <section id='hero' className='relative overflow-hidden'>
+        <section id='hero' className='relative md:overflow-hidden '>
             <div className='absolute top-0 left-0 z-10'>
                 <img src="/images/bg.png" alt="background" />
             </div>
@@ -32,10 +34,19 @@ const Hero = () => {
                             <h1 className='mt-2'>into real projects</h1>
                             <h1 className='mt-2'>that Deliver Results</h1>
                         </div>
-                        
+                        <Button
+                            className ='md:w-80 md:h-16 w-60 h-12'
+                            id='button'
+                            text='See My Work'
+                        ></Button>
                     </div>
                 </header>
                 {/* 3D model */}
+                <figure >
+                    <div className='hero-3d-layout max-h-1/2 md:max-h-max'>
+                        <HeroExperience />
+                    </div>
+                </figure>
             </div>
         </section>
     );
