@@ -39,7 +39,7 @@ export default function ShowcaseSection() {
   });
 
   return (
-    <div>
+    <div id="projects">
       <h1 className="text-5xl font-bold text-center">My Projects</h1>
 
       {/* Project 1 */}

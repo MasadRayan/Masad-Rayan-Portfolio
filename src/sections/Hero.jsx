@@ -27,7 +27,7 @@ const Hero = () => {
 
 
     return (
-        <section id='hero' className='relative md:overflow-none container'>
+        <section id='hero' className='relative md:overflow-none container pt-20 md:pt-0 '>
             <div className='hero-layout'>
                 {/* left: header text */}
                 <header className='flex flex-col justify-center md:w-full w-screen md:px-20 px-5'>
