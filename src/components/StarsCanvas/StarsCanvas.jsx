@@ -13,8 +13,8 @@ export const StarBackground = () => {
 
   useFrame((_state, delta) => {
     if (ref.current) {
-      ref.current.rotation.x -= delta / 30;
-      ref.current.rotation.y -= delta / 40;
+      ref.current.rotation.x -= delta / 10;
+      ref.current.rotation.y -= delta / 20;
     }
   });
 
@@ -29,7 +29,7 @@ export const StarBackground = () => {
         <PointMaterial
           transparent
           color="#ffffff"
-          size={0.1}    // <-- Big enough to see
+          size={0.2}    // <-- Big enough to see
           sizeAttenuation
           depthWrite={false}
         />

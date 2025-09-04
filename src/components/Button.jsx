@@ -5,7 +5,7 @@ const Button = ({ className, id, text }) => {
         <a
             onClick={(e)=> {
                 e.preventDefault();
-                const target = document.getElementById('projects');
+                const target = document.getElementById('aboutMe');
                 if (target && id) {
                     const offset = window.innerHeight * 0.15;
                     const top = target.getBoundingClientRect().top + window.scrollY - offset;  

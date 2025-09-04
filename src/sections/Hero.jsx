@@ -4,6 +4,7 @@ import Button from '../components/Button';
 import HeroExperience from '../components/HeroModels/HeroExperience';
 import { useGSAP } from '@gsap/react';
 import  gsap  from 'gsap';
+import AboutMe from '../components/HeroModels/AboutMe';
 
 
 const Hero = () => {
@@ -26,7 +27,7 @@ const Hero = () => {
 
 
     return (
-        <section id='hero' className='relative md:overflow-none'>
+        <section id='hero' className='relative md:overflow-none container'>
             <div className='hero-layout'>
                 {/* left: header text */}
                 <header className='flex flex-col justify-center md:w-full w-screen md:px-20 px-5'>
@@ -67,6 +68,7 @@ const Hero = () => {
                     </div>
                 </figure>
             </div>
+            <AboutMe />
         </section>
     );
 };

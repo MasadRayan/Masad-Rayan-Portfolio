@@ -5,7 +5,7 @@ import { StarsCanvas } from './components/StarsCanvas/StarsCanvas';
 
 const App = () => {
   return (
-    <div className="relative w-full min-h-screen text-white">
+    <div className="relative w-full min-h-screen ">
       {/* Background Stars */}
       <StarsCanvas />
 
