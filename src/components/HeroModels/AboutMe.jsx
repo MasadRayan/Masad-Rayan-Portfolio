@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import masad from '../../../public/images/masad.jpg';
+import masad from '/images/masad.jpg';
 import { FaLinkedin, FaGithub, FaFacebook } from "react-icons/fa";
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
@@ -68,14 +68,15 @@ const AboutMe = () => {
             </h1>
             <section
                 id="aboutMe"
-                className="container flex flex-col md:flex-row items-center gap-10 border border-[#2a0e61] py-8 px-5 md:p-12 rounded-xl relative  mx-auto max-w-7xl mb-200"
+                className="container flex flex-col md:flex-row items-center gap-10 border border-[#2a0e61] py-8 px-5 md:p-12 rounded-xl relative  mx-auto max-w-7xl mb-20"
             >
                 {/* image */}
                 <div ref={imgRef} className="md:w-[40%] flex justify-center">
                     <img
                         src={masad}
                         alt="profile"
-                        className="w-[25vw] h-[20vw] object-cover rounded-xl shadow-lg"
+                       className="md:w-[25vw] md:h-[20vw] object-cover  rounded-xl shadow-lg transition-shadow duration-300 hover:shadow-[0_0_20px_5px_rgba(255,255,255,0.5)]"
+
                     />
                 </div>
                 {/* text */}
