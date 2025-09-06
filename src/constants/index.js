@@ -249,7 +249,6 @@ const socialImgs = [
 
 export {
   words,
-  abilities,
   logoIconsList,
   counterItems,
   expCards,

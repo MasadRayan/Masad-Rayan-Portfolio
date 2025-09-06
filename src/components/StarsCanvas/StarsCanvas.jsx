@@ -8,8 +8,9 @@ export const StarBackground = () => {
 
   // Generate stars farther away
   const [sphere] = useState(() =>
-    random.inSphere(new Float32Array(5000), { radius: 50 })
+    random.inSphere(new Float32Array(5000 * 3), { radius: 50 })
   );
+
 
   useFrame((_state, delta) => {
     if (ref.current) {
@@ -29,7 +30,7 @@ export const StarBackground = () => {
         <PointMaterial
           transparent
           color="#ffffff"
-          size={0.2}    // <-- Big enough to see
+          size={0.1}    // <-- Big enough to see
           sizeAttenuation
           depthWrite={false}
         />
@@ -39,7 +40,7 @@ export const StarBackground = () => {
 };
 
 export const StarsCanvas = () => (
-  <div className="fixed inset-0 w-full h-full z-0"> 
+  <div className="fixed inset-0 w-full h-full z-0">
     <Canvas camera={{ position: [0, 0, 10], fov: 75 }}>
       <Suspense fallback={null}>
         <StarBackground />
