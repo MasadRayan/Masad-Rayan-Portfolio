@@ -131,41 +131,38 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    review: "Studying at IIUC has been an enriching experience, helping me strengthen my foundations in computer science while exploring research and practical projects that align with my passion for technology.",
+    logoPath: "/images/university.png",
+    title: "International Islamic University Chittagong",
+    date: "2023 - Present",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Pursuing a Bachelor's degree in Computer Science & Engineering.",
+      "Engaging in coursework focused on software engineering, data structures, and algorithms.",
+      "Participating in research and projects to apply classroom knowledge to real-world problems.",
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    review: "During my Higher Secondary studies in the Science stream, I developed a strong academic foundation and achieved excellent results. These years shaped my analytical and problem-solving abilities.",
+    logoPath: "/images/college.jpg",
+    title: "Hajera Taju Degree College",
+    date: "2019 - 2021",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Studied Science under the National Curriculum with a focus on Physics, Chemistry, Biology, and Mathematics.",
+      "Achieved GPA 5.00 in HSC (Higher Secondary Certificate).",
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
-    responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
-    ],
-  },
+  review: "My school years at CDA Public School and College built the foundation of my academic journey. Alongside excelling in Science, I actively participated in sports and co-curricular activities, shaping both discipline and teamwork skills.",
+  logoPath: "/images/school.png",
+  title: "CDA Public School and College",
+  date: "2017 - 2019",
+  responsibilities: [
+    "Studied Science at the secondary level with a strong focus on core subjects like Physics, Chemistry, and Mathematics.",
+    "Achieved GPA 4.94 in SSC (Secondary School Certificate).",
+    "Actively participated in sports and school events, developing discipline and teamwork abilities.",
+  ],
+},
+
 ];
 
 const expLogos = [
