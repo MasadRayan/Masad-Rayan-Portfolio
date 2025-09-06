@@ -98,35 +98,67 @@ const techStackImgs = [
 
 const techStackIcons = [
   {
-    name: "React Developer",
+    name: "HTML",
+    modelPath: "/models/newHTML.glb",
+    scale: 6.5,
+    rotation: [0, -Math.PI / 8, 0],
+  },
+  {
+    name: "Tailwind CSS",
+    modelPath: "/models/tailwind.glb",
+    scale: 1.4,
+    rotation: [0, 0, 0],
+  },
+  {
+    name: "React JS",
     modelPath: "/models/react_logo-transformed.glb",
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
-    name: "Python Developer",
+    name: "Python",
     modelPath: "/models/python-transformed.glb",
     scale: 0.8,
     rotation: [0, 0, 0],
   },
   {
-    name: "Backend Developer",
+    name: "Node JS",
     modelPath: "/models/node-transformed.glb",
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
   {
-    name: "Interactive Developer",
+    name: "Three JS",
     modelPath: "/models/three.js-transformed.glb",
     scale: 0.05,
     rotation: [0, 0, 0],
   },
   {
-    name: "Project Manager",
+    name: "Git",
     modelPath: "/models/git-svg-transformed.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
   },
+  {
+    name: "Figma",
+    modelPath: "/models/figma.glb",
+    scale: 2,
+    rotation: [0, Math.PI / 10, 0],
+  },
+
+  {
+    name: "Firebase",
+    modelPath: "/models/firebase.glb",
+    scale: 1.8,
+    rotation: [0, 0, 0],
+  },
+  {
+    name: "GitHub",
+    modelPath: "/models/github.glb",
+    scale: 2,
+    rotation: [0, 0, 0],
+  },
+
 ];
 
 const expCards = [
@@ -152,16 +184,16 @@ const expCards = [
     ],
   },
   {
-  review: "My school years at CDA Public School and College built the foundation of my academic journey. Alongside excelling in Science, I actively participated in sports and co-curricular activities, shaping both discipline and teamwork skills.",
-  logoPath: "/images/school.png",
-  title: "CDA Public School and College",
-  date: "2017 - 2019",
-  responsibilities: [
-    "Studied Science at the secondary level with a strong focus on core subjects like Physics, Chemistry, and Mathematics.",
-    "Achieved GPA 4.94 in SSC (Secondary School Certificate).",
-    "Actively participated in sports and school events, developing discipline and teamwork abilities.",
-  ],
-},
+    review: "My school years at CDA Public School and College built the foundation of my academic journey. Alongside excelling in Science, I actively participated in sports and co-curricular activities, shaping both discipline and teamwork skills.",
+    logoPath: "/images/school.png",
+    title: "CDA Public School and College",
+    date: "2017 - 2019",
+    responsibilities: [
+      "Studied Science at the secondary level with a strong focus on core subjects like Physics, Chemistry, and Mathematics.",
+      "Achieved GPA 4.94 in SSC (Secondary School Certificate).",
+      "Actively participated in sports and school events, developing discipline and teamwork abilities.",
+    ],
+  },
 
 ];
 
