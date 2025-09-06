@@ -40,7 +40,7 @@ export default function ShowcaseSection() {
 
   return (
     <div id="projects">
-      <h1 className="text-5xl font-bold text-center">My Projects</h1>
+      <h1 className="text-5xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-[#0192b0] via-[#5073f6] to-[#8b6efa]">My Projects</h1>
 
       {/* Project 1 */}
       <div

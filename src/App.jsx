@@ -3,6 +3,7 @@ import Hero from './sections/hero';
 import { StarsCanvas } from './components/StarsCanvas/StarsCanvas';
 import ShowcaseSectioon from './sections/ShowcaseSectioon';
 import Navbar from './components/Navbar/Navbar';
+import ExperienceSection from './sections/ExperienceSection';
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <ShowcaseSectioon />
+      <ExperienceSection />
     </>
   );
 };
