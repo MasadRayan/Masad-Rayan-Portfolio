@@ -1,9 +1,10 @@
 import Particles from "@/components/Particles";
 import Navbar from "./components/Navbar";
+import HeroSection from "./components/HeroSection";
 
 export default function Home() {
   return (
-    <div>
+    <div className="">
       {/* Full Background Particles */}
       <div
         style={{
@@ -27,9 +28,12 @@ export default function Home() {
       </div>
 
       {/* Page Content */}
-      <div className="relative z-10">
+      <div className="relative  text-white font-funnel">
         <Navbar />
         {/* Your other components go here */}
+        <div className="container mx-auto  ">
+          <HeroSection></HeroSection>
+        </div>
       </div>
     </div>
   );

@@ -160,7 +160,7 @@ const GooeyNav = ({
           .effect.filter::before {
             content: "";
             position: absolute;
-            inset: -75px;
+            inset: -40px;
             z-index: -2;
             background: black;
           }
@@ -291,7 +291,7 @@ const GooeyNav = ({
                   onClick={e => handleClick(e, index)}
                   href={item.href}
                   onKeyDown={e => handleKeyDown(e, index)}
-                  className="outline-none py-[0.6em] px-[1em] inline-block">
+                  className="outline-none py-[0.5em] px-[1em] inline-block">
                   {item.label}
                 </a>
               </li>
