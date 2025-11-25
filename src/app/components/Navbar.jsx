@@ -5,7 +5,7 @@ const Navbar = () => {
 
     const items = [
         { label: "Home", href: "#home" },
-        { label: "About", href: "#about" },
+        { label: "Objective", href: "#objective" },
         { label: "Skills", href: "#skills" },
         { label: "Projects", href: "#projects" },
         { label: "Contact", href: "#contact" },
@@ -35,7 +35,7 @@ const Navbar = () => {
                 {/* btn */}
                 <div>
                     <button>
-                        <span className='text-white btn bg-[#FF5005] px-4 py-2 rounded-lg font-funnel font-semibold text-lg cursor-pointer hover:bg-gray-600 hover:text-white'>Resume</span>
+                        <span className='text-white btn bg-[#FF500599] px-4 py-2 rounded-lg font-funnel font-semibold text-lg cursor-pointer hover:bg-gray-600 hover:text-white'>Resume</span>
                     </button>
                 </div>
             </nav>

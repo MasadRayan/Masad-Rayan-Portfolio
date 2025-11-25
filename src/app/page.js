@@ -2,6 +2,7 @@ import Particles from "@/components/Particles";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import ClickSpark from "@/components/ClickSpark";
+import CareerObjective from "./components/CareerObjective";
 
 export default function Home() {
   return (
@@ -42,6 +43,7 @@ export default function Home() {
           {/* Your other components go here */}
           <div className="container mx-auto  ">
             <HeroSection></HeroSection>
+            <CareerObjective></CareerObjective>
           </div>
         </div>
       </div>

@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={` ${funnel.variable} antialiased`}
+        className={` ${funnel.variable} antialiased funnel-display`}
       >
         {children}
       </body>
