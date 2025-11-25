@@ -12,7 +12,7 @@ const HeroSection = () => {
             <div className='text-center md:text-start'>
                 <p className='leading-10'>
                     <span className='text-5xl font-bold'>Hi I'm Masad Rayan</span><br />
-                    <span className='text-3xl font-semibold'>A Developer</span> <br />
+                    <span className='text-3xl font-semibold'>A Full Stack Developer</span> <br />
                     <span className='text-3xl font-semibold'>Dedicated to Crafting</span> <br />
 
                     {/* 🔥 Typewriter Section */}
