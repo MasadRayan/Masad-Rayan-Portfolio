@@ -4,8 +4,12 @@
   --background: #000000;
   
 }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+}
 
 body {
   background-color: var(--background);
- 
+  
 }

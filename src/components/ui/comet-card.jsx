@@ -32,7 +32,7 @@ export const CometCard = ({
   const glareX = useTransform(mouseXSpring, [-0.5, 0.5], [0, 100]);
   const glareY = useTransform(mouseYSpring, [-0.5, 0.5], [0, 100]);
 
-    const handleMouseMove = (e) => {
+  const handleMouseMove = (e) => {
     if (!ref.current) return;
 
     const rect = ref.current.getBoundingClientRect();
@@ -61,12 +61,13 @@ export const CometCard = ({
         ref={ref}
         onMouseMove={handleMouseMove}
         onMouseLeave={handleMouseLeave}
+        
         style={{
           rotateX,
           rotateY,
           translateX,
           translateY,
-          
+
         }}
         initial={{ scale: 1, z: 0 }}
         whileHover={{
@@ -79,7 +80,7 @@ export const CometCard = ({
         <motion.div
           className="pointer-events-none absolute inset-0 z-50 h-full w-full rounded-2xl "
           style={{
-            background: "rgba(255,255,255,0)", 
+            background: "rgba(255,255,255,0)",
           }}
           transition={{ duration: 0.2 }} />
       </motion.div>

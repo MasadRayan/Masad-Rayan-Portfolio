@@ -8,8 +8,8 @@ import { CometCard } from "@/components/ui/comet-card";
 
 const HeroSection = () => {
     return (
-        <div id='home' className='flex justify-center items-center flex-col md:flex-row  gap-10 md:gap-20'>
-            <div>
+        <div id='home' className='flex justify-center items-center flex-col md:flex-row md:gap-20 max-h-screen'>
+            <div className='text-center md:text-start'>
                 <p className='leading-10'>
                     <span className='text-5xl font-bold'>Hi I'm Masad Rayan</span><br />
                     <span className='text-3xl font-semibold'>A Developer</span> <br />
@@ -49,7 +49,7 @@ const HeroSection = () => {
                         <div className="mx-2 flex-1">
                             <div className="relative mt-2 aspect-3/4 w-full">
                                 <Image
-                                    loading="lazy"
+                                    loading="eager"
                                     className="absolute inset-0 h-full w-full rounded-2xl object-cover "
                                     alt="Masad Rayan "
                                     src="/masad.jpg"
