@@ -13,7 +13,7 @@ const Navbar = () => {
 
 
     return (
-        <div className=" mx-10 sticky top-0 ">
+        <div className=" mx-10 sticky top-0 z-100  ">
             <nav className='flex justify-between items-center py-5 '>
                 {/* icon */}
                 <div>
