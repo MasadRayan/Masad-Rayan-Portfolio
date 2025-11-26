@@ -5,7 +5,7 @@ const CareerObjective = () => {
     return (
         <div id='objective' className='mb-10'>
             <h1 className='text-center mt-30 md:mt-10 mb-6'>
-                <span className="text-4xl font-bold bg-linear-to-r from-[#FF5005] via-[#FF5005] to-[#F7C948] bg-clip-text text-transparent">
+                <span className="text-5xl font-bold bg-linear-to-r from-[#FF5005] via-[#FF5005] to-[#F7C948] bg-clip-text text-transparent">
                     Career Objective
                 </span>
             </h1>
@@ -13,13 +13,18 @@ const CareerObjective = () => {
                 borderRadius="2rem"
                 duration={10000}
                 className="p-6 text-lg">
-                <p>
-                    I am a passionate MERN Stack and Full Stack Developer focused on building efficient, scalable, and user-centric web applications. I combine clean, modular code with thoughtful design to create digital experiences that are both functional and visually impactful. <br /><br />
+                <div>
+                    <span className='text-4xl font-bold'>I am a passionate MERN Stack & Full Stack Developer. </span> <br /> <br />
 
-                    With strong skills in HTML, CSS, Tailwind CSS, JavaScript, React.js, and Next.js, along with growing expertise in Node.js, Express.js, and MongoDB, I specialize in developing responsive, high-performance applications and integrating real-time data to enhance user experience. <br /><br />
+                    <ul className="list-disc space-y-3 ml-5 ">
+                        <li>Combine clean, modular code with thoughtful design for functional and visually appealing experiences.</li>
+                        <li>Skilled in <strong>HTML, CSS, Tailwind CSS, JavaScript, React.js, Next.js</strong> for modern front-end development.</li>
+                        <li>Experienced with <strong>Node.js, Express.js, MongoDB</strong> for full-stack applications and real-time data integration.</li>
+                        <li>Approach projects with creativity and technical precision for scalable solutions.</li>
+                        <li>Expanding expertise in <strong>Docker, Nginx, Golang, and AWS</strong> for cloud and DevOps practices.</li>
+                    </ul>
 
-                    I approach every project as an opportunity to merge logic with creativity—crafting solutions that are technically precise, scalable, and aligned with modern development standards. Currently, I am expanding my expertise in Docker, Nginx, Golang, and AWS to strengthen my capabilities in cloud architecture, scalable system design, and DevOps practices.
-                </p>
+                </div>
 
             </AnimatedBorderDiv>
         </div>

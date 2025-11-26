@@ -63,7 +63,7 @@ const HeroSection = () => {
                         </div>
                         <div
                             className="mt-2 flex shrink-0 items-center justify-between p-4 font-mono text-white">
-                            <div className="text-lg">Masad Rayan</div>
+                            <div className="text-lg text-[#FF5005] font-semibold">Masad Rayan</div>
                         </div>
                     </button>
                 </CometCard>
