@@ -165,8 +165,8 @@ const SkillSection = () => {
     ]
 
     return (
-        <div id='skills' className='mb-10 mt-0 md:mt-20'>
-            <h1 className='text-center mt-30 md:mt-10 mb-6'>
+        <div id='skills' className='mt-30 mb-10 md:mt-30'>
+            <h1 className='text-center  mb-10'>
                 <span className="text-5xl md:text-5xl  font-bold bg-linear-to-r from-[#FF5005] via-[#FF5005] to-[#F7C948] bg-clip-text text-transparent">
                     Skills & Technologies
                 </span>

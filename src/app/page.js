@@ -5,6 +5,7 @@ import ClickSpark from "@/components/ClickSpark";
 import CareerObjective from "./components/CareerObjective";
 import SkillSection from "./components/SkillSection";
 import ProjectSection from "./components/ProjectSection";
+import EducationJourney from "./components/EducationJourny";
 
 export default function Home() {
   return (
@@ -48,6 +49,7 @@ export default function Home() {
             <CareerObjective></CareerObjective>
             <SkillSection></SkillSection>
             <ProjectSection></ProjectSection>
+            <EducationJourney></EducationJourney>
           </div>
         </div>
       </div>
