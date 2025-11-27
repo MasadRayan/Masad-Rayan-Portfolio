@@ -5,10 +5,21 @@ import React, { useEffect, useState } from "react";
 
 const Navbar = () => {
   const items = [
-A complete MERN stack e-learning platform with role-based dashboards for Students, Instructors, and Admins. Students can browse courses, enroll, submit assignments, and track progress. Instructors can create and manage classes, post assignments, and review submissions. Admins oversee users, courses, and feedback. The app features secure authentication, real-time progress tracking, and a fully responsive design.
+    { label: "Home", href: "#home" },
+    { label: "Objective", href: "#objective" },
+    { label: "Skills", href: "#skills" },
+    { label: "Projects", href: "#projects" },
+    { label: "Contact", href: "#contact" },
   ];
 
   const [activeIndex, setActiveIndex] = useState(0);
+
+  const handleGoToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
 
   useEffect(() => {
     const sections = items.map((item) =>
@@ -41,7 +52,7 @@ A complete MERN stack e-learning platform with role-based dashboards for Student
     <div className="px-3 md:px-10 sticky top-0 z-100 bg-transparent backdrop-blur-md">
       <nav className="flex justify-between items-center py-5">
 
-        <p className="text-xl font-bold font-funnel text-white">
+        <p onClick={handleGoToTop} className="text-xl font-bold font-funnel text-white cursor-pointer">
           Masad Rayan
         </p>
 
