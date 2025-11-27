@@ -53,7 +53,7 @@ export const Timeline = ({ data }) => {
                 {/* Glow effect on hover */}
                 <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
                   <div
-                    className="absolute w-40 h-40 bg-orange-500/15 rounded-full blur-3xl transition-all duration-200"
+                    className="absolute w-40 h-40 bg-orange-500 rounded-full blur-3xl transition-all duration-200"
                     style={{
                       left: 'var(--mouse-x, 50%)',
                       top: 'var(--mouse-y, 50%)',
@@ -61,7 +61,7 @@ export const Timeline = ({ data }) => {
                     }}
                   />
                 </div>
-                <p className="text-neutral-300 text-sm leading-relaxed relative z-10">
+                <p className="text-neutral-300 text-sm leading-relaxed font-semibold relative z-10">
                   {item.review}
                 </p>
               </div>
