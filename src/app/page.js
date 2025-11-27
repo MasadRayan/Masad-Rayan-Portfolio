@@ -6,6 +6,7 @@ import CareerObjective from "./components/CareerObjective";
 import SkillSection from "./components/SkillSection";
 import ProjectSection from "./components/ProjectSection";
 import EducationJourney from "./components/EducationJourny";
+import Contact from "./components/Contact";
 
 export default function Home() {
   return (
@@ -50,6 +51,7 @@ export default function Home() {
             <SkillSection></SkillSection>
             <ProjectSection></ProjectSection>
             <EducationJourney></EducationJourney>
+            <Contact></Contact>
           </div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import { Inter, Funnel_Display } from "next/font/google";
 import "./globals.css";
+import { Toaster } from "react-hot-toast";
 
 
 const funnel = Funnel_Display({
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
         className={` ${funnel.variable} antialiased funnel-display`}
       >
         {children}
+        <Toaster />
       </body>
     </html>
   );
