@@ -3,8 +3,8 @@ import React from 'react';
 
 const CareerObjective = () => {
     return (
-        <div id='objective' className='mb-10'>
-            <h1 className='text-center mt-30 md:mt-10 mb-6'>
+        <div id='objective' className='mb-10 px-3'>
+            <h1 className='text-center mt-20 md:mt-10 mb-6'>
                 <span className="text-5xl font-bold bg-linear-to-r from-[#FF5005] via-[#FF5005] to-[#F7C948] bg-clip-text text-transparent">
                     Career Objective
                 </span>
@@ -12,7 +12,7 @@ const CareerObjective = () => {
             <AnimatedBorderDiv
                 borderRadius="2rem"
                 duration={10000}
-                className="p-6 text-lg">
+                className="p-6 text-lg ">
                 <div>
                     <span className='text-4xl font-bold'>I am a passionate MERN Stack & Full Stack Developer. </span> <br /> <br />
 
