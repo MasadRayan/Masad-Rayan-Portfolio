@@ -5,11 +5,7 @@ import React, { useEffect, useState } from "react";
 
 const Navbar = () => {
   const items = [
-    { label: "Home", href: "#home" },
-    { label: "Objective", href: "#objective" },
-    { label: "Skills", href: "#skills" },
-    { label: "Projects", href: "#projects" },
-    { label: "Contact", href: "#contact" },
+A complete MERN stack e-learning platform with role-based dashboards for Students, Instructors, and Admins. Students can browse courses, enroll, submit assignments, and track progress. Instructors can create and manage classes, post assignments, and review submissions. Admins oversee users, courses, and feedback. The app features secure authentication, real-time progress tracking, and a fully responsive design.
   ];
 
   const [activeIndex, setActiveIndex] = useState(0);
