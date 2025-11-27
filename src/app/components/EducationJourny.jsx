@@ -43,7 +43,7 @@ const EducationJourney = () => {
             <div className='max-w-7xl mx-auto'>
                 {/* Header */}
                 <div className='text-center mb-10'>
-                    <h1 className='text-5xl md:text-6xl font-bold bg-linear-to-r from-[#FF5005] via-[#FF5005] to-[#F7C948] bg-clip-text text-transparent'>
+                    <h1 className='text-5xl md:text-6xl font-bold bg-linear-to-r from-[#FF5005] via-[#FF5005] to-[#F7C948] bg-clip-text text-transparent pb-2'>
                         Education Journey
                     </h1>
                     <p className="bg-orange-500/20 text-white px-5 py-2 w-fit mx-auto mt-4 text-lg rounded-full">My academic background</p>
