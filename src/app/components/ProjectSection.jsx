@@ -69,7 +69,7 @@ const ProjectSection = () => {
                                     as="a"
                                     href="https://skill-nova-app.web.app/"
                                     target="__blank"
-                                    className="flex items-center gap-2 bg-red-600 px-4 py-2 rounded-lg text-sm font-medium cursor-pointer"
+                                    className="flex items-center gap-2 bg-[#ff0033] px-4 py-2 rounded-lg text-sm font-medium cursor-pointer"
                                 >
                                     <FaExternalLinkAlt /> Live Demo
                                 </CardItem>
@@ -145,7 +145,7 @@ const ProjectSection = () => {
                                     as="a"
                                     href="https://bookoro-app.web.app/"
                                     target="__blank"
-                                    className="flex items-center gap-2 bg-red-600  px-4 py-2 rounded-lg text-sm font-medium cursor-pointer"
+                                    className="flex items-center gap-2 bg-[#ff0033] px-4 py-2 rounded-lg text-sm font-medium cursor-pointer"
                                 >
                                     <FaExternalLinkAlt /> Live Demo
                                 </CardItem>
@@ -224,7 +224,7 @@ const ProjectSection = () => {
                                     as="a"
                                     href="https://tangerine-crostata-f1e467.netlify.app/"
                                     target="__blank"
-                                    className="flex items-center gap-2 bg-red-600  px-4 py-2 rounded-lg text-sm font-medium cursor-pointer"
+                                    className="flex items-center gap-2 bg-[#ff0033] px-4 py-2 rounded-lg text-sm font-medium cursor-pointer"
                                 >
                                     <FaExternalLinkAlt /> Live Demo
                                 </CardItem>
@@ -297,7 +297,7 @@ const ProjectSection = () => {
                                     as="a"
                                     href="https://car-doctor-nextjs-nu.vercel.app/"
                                     target="__blank"
-                                    className="flex items-center gap-2 bg-red-600  px-4 py-2 rounded-lg text-sm font-medium cursor-pointer"
+                                    className="flex items-center gap-2 bg-[#ff0033] px-4 py-2 rounded-lg text-sm font-medium cursor-pointer"
                                 >
                                     <FaExternalLinkAlt /> Live Demo
                                 </CardItem>
