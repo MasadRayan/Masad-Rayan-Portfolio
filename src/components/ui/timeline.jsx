@@ -164,7 +164,7 @@ export const Timeline = ({ data }) => {
         {/* Vertical Timeline Line - Starts from first logo (Desktop Only) */}
         <div
           style={{
-            height: height - 180 + "px",
+            height: height - 50 + "px",
           }}
           className="absolute left-1/2 top-10 -translate-x-1/2 w-0.5 bg-neutral-800 hidden md:block"
         >
@@ -180,9 +180,9 @@ export const Timeline = ({ data }) => {
         {/* Vertical Timeline Line - Mobile */}
         <div
           style={{
-            height: height - 180 + "px",
+            height: height -40 + "px",
           }}
-          className="absolute left-8 top-10 w-0.5 bg-neutral-800 md:hidden"
+          className="absolute left-8 top-10 -translate-x-1/2 w-0.5 bg-neutral-800 md:hidden"
         >
           <motion.div
             style={{

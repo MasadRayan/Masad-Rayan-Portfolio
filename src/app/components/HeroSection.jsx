@@ -9,28 +9,26 @@ import { CometCard } from "@/components/ui/comet-card";
 const HeroSection = () => {
     return (
         <div id='home' className='flex justify-center items-center flex-col md:flex-row md:gap-20 max-h-screen'>
-            <div className='text-center md:text-start'>
-                <p className='leading-10'>
-                    <span className='text-5xl font-bold'>Hi I'm Masad Rayan</span><br />
-                    <span className='text-3xl font-semibold'>A Full Stack Developer</span> <br />
-                    <span className='text-3xl font-semibold'>Dedicated to Crafting</span> <br />
+            <div className="text-center md:text-start">
+                <div className="space-y-2 leading-snug">
+                    <h1 className="text-5xl font-bold">Hi, I&apos;m Masad Rayan</h1>
+                    <h2 className="text-3xl font-semibold">A Full Stack Developer</h2>
+                    <h2 className="text-3xl font-semibold">Dedicated to Crafting</h2>
 
-                    {/* 🔥 Typewriter Section */}
-                    <span className='text-3xl font-semibold text-[#FF5005]'>
+                    <h2 className="text-3xl font-semibold text-[#FF5005]">
                         <Typewriter
-                            words={['Modern', 'Scalable', 'Secure']}
+                            words={["Modern", "Scalable", "Secure"]}
                             loop={true}
                             cursor
-                            cursorStyle='|'
+                            cursorStyle="|"
                             typeSpeed={80}
                             deleteSpeed={60}
                             delaySpeed={1200}
                         />
-                    </span>
-                    <br />
+                    </h2>
 
-                    <span className='text-3xl font-semiboldl'>Web Solutions</span>
-                </p>
+                    <h2 className="text-3xl font-semibold">Web Solutions</h2>
+                </div>
             </div>
 
             {/* image */}
