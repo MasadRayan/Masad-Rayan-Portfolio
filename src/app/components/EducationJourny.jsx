@@ -46,9 +46,7 @@ const EducationJourney = () => {
                     <h1 className='text-5xl md:text-6xl font-bold bg-linear-to-r from-[#FF5005] via-[#FF5005] to-[#F7C948] bg-clip-text text-transparent'>
                         Education Journey
                     </h1>
-                    <p className='text-neutral-400 mt-4 text-lg'>
-                        My academic background 
-                    </p>
+                    <p className="bg-orange-500/20 text-white px-5 py-2 w-fit mx-auto mt-4 text-lg rounded-full">My academic background</p>
                 </div>
 
                 {/* Timeline */}
