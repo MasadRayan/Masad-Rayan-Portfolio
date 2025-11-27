@@ -7,6 +7,7 @@ import SkillSection from "./components/SkillSection";
 import ProjectSection from "./components/ProjectSection";
 import EducationJourney from "./components/EducationJourny";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -52,6 +53,7 @@ export default function Home() {
             <ProjectSection></ProjectSection>
             <EducationJourney></EducationJourney>
             <Contact></Contact>
+            <Footer></Footer>
           </div>
         </div>
       </div>

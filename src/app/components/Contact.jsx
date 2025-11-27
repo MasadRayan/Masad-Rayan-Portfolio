@@ -48,7 +48,7 @@ const Contact = () => {
     };
 
     return (
-        <section id='contact' className='w-full mt-20 md:mt-40 px-6 md:px-20 mb-20'>
+        <section id='contact' className='w-full mt-20 md:mt-30 px-6 md:px-20 mb-20'>
             <div className='max-w-7xl mx-auto'>
                 {/* Header */}
                 <div className='text-center mb-16'>
