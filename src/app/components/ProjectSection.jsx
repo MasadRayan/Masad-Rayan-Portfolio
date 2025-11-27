@@ -45,7 +45,7 @@ const ProjectSection = () => {
                                 translateZ="60"
                                 className="text-neutral-500 text-sm w-full dark:text-neutral-300 mt-5 flex-1"
                             >
-                                A complete MERN stack e-learning platform with role-based dashboards for Students, Instructors, and Admins featuring JWT authentication, Stripe payments, and dynamic course management.
+                                A complete MERN stack e-learning platform with role-based dashboards for Students, Instructors, and Admins. Students can browse courses, enroll, submit assignments, and track progress. Instructors can create and manage classes, post assignments, and review submissions. Admins oversee users, courses, and feedback. The app features secure authentication, real-time progress tracking, and a fully responsive design.
                             </CardItem>
                             {/* Tech Stack */}
                             <CardItem
