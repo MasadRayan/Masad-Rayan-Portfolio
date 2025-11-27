@@ -22,9 +22,7 @@ const Navbar = () => {
   };
 
   useEffect(() => {
-    const sections = items.map((item) =>
-      document.querySelector(item.href)
-    );
+    const sections = items.map((item) => document.querySelector(item.href));
 
     const observer = new IntersectionObserver(
       (entries) => {
@@ -37,16 +35,41 @@ const Navbar = () => {
       },
       {
         root: null,
-        threshold: 0.5, // 50% visible = active
+        threshold: 0.5, // default threshold
       }
     );
 
     sections.forEach((section) => {
-      if (section) observer.observe(section);
+      if (!section) return;
+
+      let thresholdValue = 0.5; // default for small/medium section
+
+      if (section.id === "projects" && window.innerWidth >= 1536) {
+        thresholdValue = 0.4; 
+      }
+      if (section.id === "skills" && window.innerWidth >= 1536) {
+        thresholdValue = 1; 
+      }
+
+      // Observe with a section-specific threshold
+      const sectionObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              const index = sections.indexOf(entry.target);
+              if (index !== -1) setActiveIndex(index);
+            }
+          });
+        },
+        { threshold: thresholdValue }
+      );
+
+      sectionObserver.observe(section);
     });
 
     return () => observer.disconnect();
   }, []);
+
 
   return (
     <div className="px-3 md:px-10 sticky top-0 z-100 bg-transparent backdrop-blur-md">

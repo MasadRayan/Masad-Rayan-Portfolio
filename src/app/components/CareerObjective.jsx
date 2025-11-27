@@ -3,7 +3,7 @@ import React from 'react';
 
 const CareerObjective = () => {
     return (
-        <div id='objective' className='mb-10 px-3'>
+        <section id='objective' className='mb-10 px-3'>
             <h1 className='text-center mt-20 md:mt-10 mb-6'>
                 <span className="text-5xl font-bold bg-linear-to-r from-[#FF5005] via-[#FF5005] to-[#F7C948] bg-clip-text text-transparent">
                     Career Objective
@@ -27,7 +27,7 @@ const CareerObjective = () => {
                 </div>
 
             </AnimatedBorderDiv>
-        </div>
+        </section>
     );
 };
 

@@ -8,7 +8,7 @@ import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 const ProjectSection = () => {
     return (
-        <div id='projects' className='mb-10 mt-0 md:mt-20'>
+        <section id='projects' className='mb-10 mt-0 md:mt-20'>
             <h1 className='text-center mt-30 md:mt-10 mb-6'>
                 <span className="text-5xl md:text-5xl  font-bold bg-linear-to-r from-[#FF5005] via-[#FF5005] to-[#F7C948] bg-clip-text text-transparent">
                     Projects
@@ -69,7 +69,7 @@ const ProjectSection = () => {
                                     as="a"
                                     href="https://skill-nova-app.web.app/"
                                     target="__blank"
-                                    className="flex items-center gap-2 bg-red-600 hover:bg-red-700 px-4 py-2 rounded-lg text-sm font-medium cursor-pointer"
+                                    className="flex items-center gap-2 bg-red-600 px-4 py-2 rounded-lg text-sm font-medium cursor-pointer"
                                 >
                                     <FaExternalLinkAlt /> Live Demo
                                 </CardItem>
@@ -145,7 +145,7 @@ const ProjectSection = () => {
                                     as="a"
                                     href="https://bookoro-app.web.app/"
                                     target="__blank"
-                                    className="flex items-center gap-2 bg-red-600 hover:bg-red-700 px-4 py-2 rounded-lg text-sm font-medium cursor-pointer"
+                                    className="flex items-center gap-2 bg-red-600  px-4 py-2 rounded-lg text-sm font-medium cursor-pointer"
                                 >
                                     <FaExternalLinkAlt /> Live Demo
                                 </CardItem>
@@ -224,7 +224,7 @@ const ProjectSection = () => {
                                     as="a"
                                     href="https://tangerine-crostata-f1e467.netlify.app/"
                                     target="__blank"
-                                    className="flex items-center gap-2 bg-red-600 hover:bg-red-700 px-4 py-2 rounded-lg text-sm font-medium cursor-pointer"
+                                    className="flex items-center gap-2 bg-red-600  px-4 py-2 rounded-lg text-sm font-medium cursor-pointer"
                                 >
                                     <FaExternalLinkAlt /> Live Demo
                                 </CardItem>
@@ -297,7 +297,7 @@ const ProjectSection = () => {
                                     as="a"
                                     href="https://car-doctor-nextjs-nu.vercel.app/"
                                     target="__blank"
-                                    className="flex items-center gap-2 bg-red-600 hover:bg-red-700 px-4 py-2 rounded-lg text-sm font-medium cursor-pointer"
+                                    className="flex items-center gap-2 bg-red-600  px-4 py-2 rounded-lg text-sm font-medium cursor-pointer"
                                 >
                                     <FaExternalLinkAlt /> Live Demo
                                 </CardItem>
@@ -318,7 +318,7 @@ const ProjectSection = () => {
                 </div>
 
             </div>
-        </div>
+        </section>
     );
 };
 

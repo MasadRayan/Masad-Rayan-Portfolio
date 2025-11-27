@@ -165,7 +165,7 @@ const SkillSection = () => {
     ]
 
     return (
-        <div id='skills' className='mt-30 mb-10 md:mt-30'>
+        <section id='skills' className='mt-30 mb-10 md:mt-30 xl:mb-40'>
             <h1 className='text-center  mb-10'>
                 <span className="text-5xl md:text-5xl  font-bold bg-linear-to-r from-[#FF5005] via-[#FF5005] to-[#F7C948] bg-clip-text text-transparent">
                     Skills & Technologies
@@ -202,7 +202,7 @@ const SkillSection = () => {
                     </div>
                 ))}
             </Marquee>
-        </div>
+        </section>
     );
 };
 
