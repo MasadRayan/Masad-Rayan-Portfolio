@@ -34,7 +34,7 @@ Rendered in the main layout:
   <Contact />
   <Footer />
 </div>
-
+```
 
 
 ## 🛠️ Tech Stack
