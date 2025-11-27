@@ -34,9 +34,12 @@ const Navbar = () => {
                 </div>
                 {/* btn */}
                 <div>
-                    <button>
+                    <a
+                        href="/masad_rayan_cv.pdf"
+                        download="Masad_Rayan_CV.pdf"
+                    >
                         <span className='text-white btn bg-[#FF500599] px-4 py-2 rounded-lg font-funnel font-semibold text-lg cursor-pointer hover:bg-gray-600 hover:text-white'>Resume</span>
-                    </button>
+                    </a>
                 </div>
             </nav>
 
