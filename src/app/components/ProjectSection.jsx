@@ -176,7 +176,6 @@ const ProjectSection = () => {
                                 Hobby Hive – <span className="text-[#FF5005]"> Hobby Groups Platform</span>
                             </CardItem>
 
-                            {/* Image */}
                             <CardItem translateZ="100" className="w-full mt-4 overflow-hidden rounded-xl h-60">
                                 <Image
                                     src={'/projects/project3Full.png'}
@@ -188,7 +187,6 @@ const ProjectSection = () => {
 
                                 />
                             </CardItem>
-                            {/* Description  */}
                             <CardItem
                                 as="p"
                                 translateZ="60"
@@ -202,7 +200,6 @@ const ProjectSection = () => {
                                 with full CRUD operations, and the project is deployed using Netlify (client) and
                                 Vercel (server).
                             </CardItem>
-                            {/* Tech Stack */}
                             <CardItem
                                 as="div"
                                 translateZ="60"
@@ -218,7 +215,6 @@ const ProjectSection = () => {
                                 </div>
                             </CardItem>
                             <div className="flex justify-start gap-2 items-center mt-6">
-                                {/* Live Demo */}
                                 <CardItem
                                     translateZ={20}
                                     as="a"
@@ -228,7 +224,6 @@ const ProjectSection = () => {
                                 >
                                     <FaExternalLinkAlt /> Live Demo
                                 </CardItem>
-                                {/* GitHub */}
                                 <CardItem
                                     translateZ={20}
                                     as="a"
@@ -243,11 +238,9 @@ const ProjectSection = () => {
                         </CardBody>
                     </CardContainer>
                 </div>
-                {/* Fourth Project */}
                 <div className="lg:col-span-5 bg-black">
                     <CardContainer className="inter-var h-full">
                         <CardBody className=" relative group/card hover:shadow-2xl hover:shadow-emerald-500/10 border-white/20 w-full lg:h-[600px] rounded-xl p-6 border flex flex-col">
-                            {/* Title */}
                             <CardItem
                                 translateZ="50"
                                 className="text-xl font-bold text-white"
@@ -255,7 +248,6 @@ const ProjectSection = () => {
                                 Car Doctor – <span className="text-[#FF5005]"> Car Service Platform</span>
                             </CardItem>
 
-                            {/* Image */}
                             <CardItem translateZ="100" className="w-full mt-4 overflow-hidden rounded-xl h-60">
                                 <Image
                                     src={'/projects/project4Full.png'}
@@ -267,7 +259,6 @@ const ProjectSection = () => {
 
                                 />
                             </CardItem>
-                            {/* Description  */}
                             <CardItem
                                 as="p"
                                 translateZ="60"
@@ -275,7 +266,6 @@ const ProjectSection = () => {
                             >
                                 Car Doctor is an intuitive web app for booking car services online. Users can browse services, schedule appointments, and make secure payments easily. The platform features a smart AI chatbot that answers service and booking queries instantly. Built with React, Next.js, Tailwind CSS, and Express, it demonstrates a modern, responsive, and user-friendly car service management solution. The project also have a personalized chatbot integrated using Google AI Studio API to enhance user experience.
                             </CardItem>
-                            {/* Tech Stack */}
                             <CardItem
                                 as="div"
                                 translateZ="60"
@@ -291,7 +281,6 @@ const ProjectSection = () => {
                                 </div>
                             </CardItem>
                             <div className="flex justify-start gap-2 items-center mt-6">
-                                {/* Live Demo */}
                                 <CardItem
                                     translateZ={20}
                                     as="a"
@@ -301,7 +290,6 @@ const ProjectSection = () => {
                                 >
                                     <FaExternalLinkAlt /> Live Demo
                                 </CardItem>
-                                {/* GitHub */}
                                 <CardItem
                                     translateZ={20}
                                     as="a"
