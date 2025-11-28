@@ -171,7 +171,6 @@ const SkillSection = () => {
                     Skills & Technologies
                 </span>
             </h1>
-            {/* Forward Marquee */}
             <Marquee gradient={false} speed={100} className='overflow-y-hidden' pauseOnHover= {true}>
                 {skills.map((skill) => (
                     <div
@@ -187,7 +186,6 @@ const SkillSection = () => {
                 ))}
             </Marquee>
 
-            {/* Backward Marquee */}
             <Marquee gradient={false} speed={100} direction="right" className="mt-6 overflow-y-hidden" pauseOnHover= {true}>
                 {skills.slice().reverse().map((skill) => (
                     <div
