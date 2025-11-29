@@ -8,7 +8,7 @@ import { CometCard } from "@/components/ui/comet-card";
 
 const HeroSection = () => {
     return (
-        <section id='home' className='flex justify-center items-center flex-col md:flex-row md:gap-20 max-h-screen mt-20 md:mt-0'>
+        <section id='home' className='flex justify-center items-center flex-col md:flex-row md:gap-20 max-h-screen mt-34 md:mt-0'>
             <div className="text-center md:text-start">
                 <div className="space-y-2 leading-snug">
                     <h1 className="text-5xl font-bold">Hi, I&apos;m Masad Rayan</h1>
