@@ -8,6 +8,7 @@ import ProjectSection from "./components/ProjectSection";
 import EducationJourney from "./components/EducationJourny";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import GotoTopButton from "./components/GotoTopButton";
 
 export default function Home() {
   return (
@@ -55,6 +56,7 @@ export default function Home() {
             <Contact></Contact>
             <Footer></Footer>
           </div>
+          <GotoTopButton></GotoTopButton>
         </div>
       </div>
     </ClickSpark>
