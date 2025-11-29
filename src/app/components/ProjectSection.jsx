@@ -15,11 +15,9 @@ const ProjectSection = () => {
                 </span>
             </h1>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-6 p-6'>
-                {/* First Project */}
                 <div className="lg:col-span-5 bg-black">
                     <CardContainer className="inter-var h-full">
                         <CardBody className=" relative group/card hover:shadow-2xl hover:shadow-emerald-500/10 border-white/20 w-full lg:h-[600px] rounded-xl p-6 border flex flex-col">
-                            {/* Title */}
                             <CardItem
                                 translateZ="50"
                                 className="text-xl font-bold text-white"
@@ -27,7 +25,6 @@ const ProjectSection = () => {
                                 Skill Nova – <span className="text-[#FF5005]"> E-Learning Platform</span>
                             </CardItem>
 
-                            {/* Image */}
                             <CardItem translateZ="100" className="w-full mt-4 overflow-hidden rounded-xl h-60">
                                 <Image
                                     src={'/projects/project1Full.png'}
@@ -39,7 +36,6 @@ const ProjectSection = () => {
 
                                 />
                             </CardItem>
-                            {/* Description  */}
                             <CardItem
                                 as="p"
                                 translateZ="60"
@@ -47,7 +43,6 @@ const ProjectSection = () => {
                             >
                                 A complete MERN stack e-learning platform with role-based dashboards for Students, Instructors, and Admins. Students can browse courses, enroll, submit assignments, and track progress. Instructors can create and manage classes, post assignments, and review submissions. Admins oversee users, courses, and feedback. The app features secure authentication, real-time progress tracking, and a fully responsive design.
                             </CardItem>
-                            {/* Tech Stack */}
                             <CardItem
                                 as="div"
                                 translateZ="60"
@@ -63,7 +58,6 @@ const ProjectSection = () => {
                                 </div>
                             </CardItem>
                             <div className="flex justify-start gap-2 items-center mt-6">
-                                {/* Live Demo */}
                                 <CardItem
                                     translateZ={20}
                                     as="a"
@@ -73,7 +67,6 @@ const ProjectSection = () => {
                                 >
                                     <FaExternalLinkAlt /> Live Demo
                                 </CardItem>
-                                {/* GitHub */}
                                 <CardItem
                                     translateZ={20}
                                     as="a"
@@ -88,11 +81,9 @@ const ProjectSection = () => {
                         </CardBody>
                     </CardContainer>
                 </div>
-                {/* Second Project */}
                 <div className="lg:col-span-7 bg-black">
                     <CardContainer className="inter-var h-full">
                         <CardBody className=" relative group/card hover:shadow-2xl hover:shadow-emerald-500/10 border-white/20 w-full lg:h-[600px] rounded-xl p-6 border flex flex-col">
-                            {/* Title */}
                             <CardItem
                                 translateZ="50"
                                 className="text-xl font-bold text-white"
@@ -100,7 +91,6 @@ const ProjectSection = () => {
                                 Book Koro – <span className="text-[#FF5005]"> Hotel Management Platform</span>
                             </CardItem>
 
-                            {/* Image */}
                             <CardItem translateZ="100" className="w-full mt-4 overflow-hidden rounded-xl h-60">
                                 <Image
                                     src={'/projects/project2Full.png'}
@@ -112,7 +102,6 @@ const ProjectSection = () => {
 
                                 />
                             </CardItem>
-                            {/* Description  */}
                             <CardItem
                                 as="p"
                                 translateZ="60"
@@ -124,7 +113,6 @@ const ProjectSection = () => {
                                 and transactions to ensure smooth operations. The app features secure authentication,
                                 real-time booking updates, payment integration, and a fully responsive design.
                             </CardItem>
-                            {/* Tech Stack */}
                             <CardItem
                                 as="div"
                                 translateZ="60"
@@ -139,7 +127,6 @@ const ProjectSection = () => {
                                 </div>
                             </CardItem>
                             <div className="flex justify-start gap-2 items-center mt-6">
-                                {/* Live Demo */}
                                 <CardItem
                                     translateZ={20}
                                     as="a"
@@ -149,7 +136,6 @@ const ProjectSection = () => {
                                 >
                                     <FaExternalLinkAlt /> Live Demo
                                 </CardItem>
-                                {/* GitHub */}
                                 <CardItem
                                     translateZ={20}
                                     as="a"
@@ -164,11 +150,9 @@ const ProjectSection = () => {
                         </CardBody>
                     </CardContainer>
                 </div>
-                {/* Third Project */}
                 <div className="lg:col-span-7 bg-black">
                     <CardContainer className="inter-var h-full">
                         <CardBody className=" relative group/card hover:shadow-2xl hover:shadow-emerald-500/10 border-white/20 w-full lg:h-[600px] rounded-xl p-6 border flex flex-col">
-                            {/* Title */}
                             <CardItem
                                 translateZ="50"
                                 className="text-xl font-bold text-white"
