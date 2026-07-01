@@ -6,7 +6,7 @@ import React, { useEffect, useState } from "react";
 const Navbar = () => {
   const items = [
     { label: "Home", href: "#home" },
-    { label: "Objective", href: "#objective" },
+    { label: "About Me", href: "#aboutMe" },
     { label: "Skills", href: "#skills" },
     { label: "Projects", href: "#projects" },
     { label: "Contact", href: "#contact" },
