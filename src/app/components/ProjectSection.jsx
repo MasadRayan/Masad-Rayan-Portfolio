@@ -151,11 +151,11 @@ const ProjectSection = () => {
           <div key={project.id} className={`${project.span} bg-black`}>
             <CardContainer className="inter-var h-full">
               <CardBody className="relative group/card hover:shadow-2xl hover:shadow-emerald-500/10 border-white/20 w-full lg:h-[500px] rounded-xl p-6 border flex flex-col">
-                <CardItem translateZ="50" className="text-xl font-bold text-white">
+                <CardItem translateZ="30" className="text-xl font-bold text-white">
                   {project.title} – <span className="text-[#FF5005]">{project.subtitle}</span>
                 </CardItem>
 
-                <CardItem translateZ="100" className="w-full mt-4 overflow-hidden rounded-xl h-60">
+                <CardItem translateZ="30" className="w-full mt-4 overflow-hidden rounded-xl h-60">
                   <Image
                     src={project.image}
                     loading="eager"
@@ -166,11 +166,11 @@ const ProjectSection = () => {
                   />
                 </CardItem>
 
-                <CardItem as="p" translateZ="60" className="text-neutral-500 text-sm w-full dark:text-neutral-300 mt-5 flex-1">
+                <CardItem as="p" translateZ="30" className="text-neutral-500 text-sm w-full dark:text-neutral-300 mt-5 flex-1">
                   {project.description}
                 </CardItem>
 
-                <CardItem as="div" translateZ="60" className="mt-5">
+                <CardItem as="div" translateZ="30" className="mt-5">
                   <div className="flex flex-wrap gap-2">
                     {project.tags.map((tag) => (
                       <span key={tag} className="rounded-full bg-white/10 px-3 py-1 text-xs text-neutral-300">
