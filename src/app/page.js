@@ -9,6 +9,7 @@ import EducationJourney from "./components/EducationJourny";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import GotoTopButton from "./components/GotoTopButton";
+import JobExperience from "./components/JobExperience";
 
 export default function Home() {
   return (
@@ -50,6 +51,7 @@ export default function Home() {
           <div className="container mx-auto  ">
             <HeroSection></HeroSection>
             <CareerObjective></CareerObjective>
+            <JobExperience></JobExperience>
             <SkillSection></SkillSection>
             <ProjectSection></ProjectSection>
             <EducationJourney></EducationJourney>
