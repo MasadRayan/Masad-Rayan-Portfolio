@@ -53,7 +53,7 @@ const Contact = () => {
                 {/* Header */}
                 <div className='text-center mb-16'>
                     <h1 className='text-5xl md:text-6xl font-bold bg-linear-to-r from-[#FF5005] via-[#FF5005] to-[#F7C948] bg-clip-text text-transparent pb-2'>
-                        Let's Work Together!
+                        Get in Touch 
                     </h1>
                     <p className='bg-orange-500/20 text-white px-6 py-2 w-fit mx-auto mt-6 text-lg rounded-full'>
                         Have questions or ideas?
@@ -65,7 +65,7 @@ const Contact = () => {
                     {/* Left Side - Contact Info */}
                     <div className='lg:col-span-5 space-y-8'>
                         <div className='bg-neutral-900/50 backdrop-blur-sm border border-neutral-800 rounded-xl p-8'>
-                            <h2 className='text-2xl font-bold text-white mb-6'>Get in Touch</h2>
+                            <h2 className='text-2xl font-bold text-white mb-6'>Let's Work Together!</h2>
                             <p className='text-neutral-400 mb-8'>
                                 Feel free to reach out through any of these channels. I'm always open to discussing new projects, creative ideas, or opportunities.
                             </p>
