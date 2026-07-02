@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 
 const CareerObjective = () => {
     return (
-        <section id="aboutMe" className="px-4 mb-24">
+        <section id="aboutMe" className="px-4 mb-24 mt-30 lg:mt-0">
 
             {/* Section Title */}
             <div className="text-center mb-10">
@@ -36,25 +36,25 @@ const CareerObjective = () => {
                             <span >impactful</span>.
                         </h3>
 
-                        <p className="text-[#C9C9C9] leading-relaxed">
+                        <p className="text-[#C9C9C9]/95 text-lg leading-relaxed">
                             I am Masad Rayan, I’m a passionate MERN Stack Developer focused on building
                             modern, scalable web applications. My journey started with
                             curiosity about how websites work, and it gradually evolved
                             into a deep interest in full-stack development and system design.
                         </p>
 
-                        <p className="text-[#C9C9C9] leading-relaxed">
+                        <p className="text-[#C9C9C9]/95 text-lg leading-relaxed">
                             Alongside development, I work in a professional environment
                             where I’ve developed strong analytical thinking, attention to detail,
                             and problem-solving skills that directly improve my engineering approach.
                         </p>
 
-                        <p className="text-[#C9C9C9] leading-relaxed">
+                        <p className="text-[#C9C9C9]/95 text-lg leading-relaxed">
                             Today, I focus on building clean UI systems, efficient backend APIs,
                             and continuously improving my skills in modern technologies like
                             React, Node.js, and cloud-based architectures.
                         </p>
-                        <p className="text-[#C9C9C9] leading-relaxed">
+                        <p className="text-[#C9C9C9]/95 text-lg leading-relaxed">
                             My goal is to contribute to projects that make a meaningful impact, while
                             continuously learning and growing as a developer. I believe in the power of
                             collaboration, and I enjoy working with others to bring ideas to life.
