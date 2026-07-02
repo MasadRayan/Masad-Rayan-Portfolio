@@ -69,7 +69,7 @@ export const projects = [
     subtitle: "E-Learning Platform",
     image: "/projects/project1Full.png",
     images: [
-      "/projects/project1.png",
+      "/projects/project-2/project1.png",
       "/projects/project-2/project-2-image-2.png",
       "/projects/project-2/project-2-image-3.png",
       "/projects/project-2/project-2-image-4.png",

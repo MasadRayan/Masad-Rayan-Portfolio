@@ -7,6 +7,7 @@ const Navbar = () => {
   const items = [
     { label: "Home", href: "#home" },
     { label: "About Me", href: "#aboutMe" },
+    { label: "Experience", href: "#experience" },
     { label: "Skills", href: "#skills" },
     { label: "Projects", href: "#projects" },
     { label: "Contact", href: "#contact" },
@@ -45,7 +46,7 @@ const Navbar = () => {
       let thresholdValue = 0.5; // default for small/medium section
 
       if (section.id === "projects" && window.innerWidth >= 1536) {
-        thresholdValue = 0.4; 
+        thresholdValue = 1; 
       }
       if (section.id === "skills" && window.innerWidth >= 1536) {
         thresholdValue = 1; 
