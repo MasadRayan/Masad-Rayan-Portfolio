@@ -5,6 +5,7 @@ import { Timeline } from "@/components/ui/timeline";
 const data = [
     {
         review: "Studying at IIUC has been an enriching experience, helping me strengthen my foundations in computer science while exploring research and practical projects that align with my passion for technology.",
+        subject: "B.Sc. in Computer Science & Engineering",
         logoPath: "/education/university.png",
         title: "International Islamic University Chittagong",
         date: "2023 - Present",

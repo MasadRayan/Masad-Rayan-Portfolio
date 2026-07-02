@@ -135,6 +135,13 @@ export const Timeline = ({ data }) => {
                 <h2 className="text-xl md:text-2xl font-bold text-white mb-2">
                   {item.title}
                 </h2>
+                {
+                  item.subject&& (
+                    <p className="text-neutral-200 font-semibold text-lg md:text-xl mb-4">
+                      {item.subject}
+                    </p>
+                  )
+                }
                 <p className="text-neutral-400 text-sm mb-4">
                   {item.date}
                 </p>
