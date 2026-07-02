@@ -12,10 +12,13 @@ const projects = [
     subtitle: "E-Commerce Platform",
     image: "/projects/project-1/buynestFull.png",
     images: [
-      "/projects/project-1/project1.png",
-      "/projects/project1.png",
-      "/projects/project1.png",
-      "/projects/project1.png",
+      "/projects/project-1/project-5-image-1.png",
+      "/projects/project-1/project-5-image-2.png",
+      "/projects/project-1/project-5-image-3.png",
+      "/projects/project-1/project-5-image-4.png",
+      "/projects/project-1/project-5-image-5.png",
+      "/projects/project-1/project-5-image-6.png",
+      "/projects/project-1/project-5-image-7.png",
     ],
     description:
       "A full-stack MERN e-commerce platform with secure authentication, AI-powered support, and integrated online payments.",
