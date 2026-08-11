@@ -8,6 +8,7 @@
     "start": "next start",
     "preview": "npx serve out",
     "optimize-images": "node scripts/optimize-images.mjs",
+    "check:data": "node scripts/validate-projects.mjs",
     "lint": "eslint"
   },
   "dependencies": {

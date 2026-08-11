@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import Image from "next/image";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
-import { projects } from "./projectInfo";
+import projects from "@/data/projects.json";
 import ProjectModal from "./Projectmodal";
 
 const ProjectSection = () => {
