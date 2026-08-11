@@ -146,7 +146,7 @@ const ExperienceCard = ({ experience, isLast, alignRight }) => {
           </div>
 
           <p className="mt-1 text-sm font-medium text-neutral-400">
-            {experience.startDate} — {experience.endDate}
+            {experience.startDate} - {experience.endDate}
           </p>
 
           <div className="mt-4">{cardBody}</div>

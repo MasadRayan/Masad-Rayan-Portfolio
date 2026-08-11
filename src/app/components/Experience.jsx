@@ -12,7 +12,7 @@ export const experiences = [
     workMode: "Hybrid",
     // TODO: replace with your real start date, e.g. "Jan 2024"
     startDate: "JAN 2026",
-    endDate: "Present",
+    endDate: "JULY 2026",
     highlights: [
       "Contributed to 3 completed projects as a frontend developer on the core product team.",
       "Helped drive a 23% increase in revenue by shipping conversion-focused UI features.",
