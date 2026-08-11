@@ -1,4 +1,3 @@
-"use client";
 
 import React from "react";
 import { AnimatedBorderDiv } from "@/components/ui/moving-border";
@@ -31,7 +30,7 @@ const CareerObjective = () => {
                 <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#FF5005]" />
                 <span>
                   <p className="text-[#C9C9C9]/95 text-lg leading-relaxed">
-                    I'm Masad Rayan, a passionate Full Stack Developer who enjoys building modern, scalable, and user-focused web applications. My journey into web development began with a curiosity about how websites work, which gradually evolved into a strong passion for full-stack development and creating seamless digital experiences.
+                    I'm Masad Rayan, a Full Stack Developer who loves building modern, scalable web apps.
                   </p>
                 </span>
               </li>
@@ -39,7 +38,7 @@ const CareerObjective = () => {
                 <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#FF5005]" />
                 <span>
                   <p className="text-[#C9C9C9]/95 text-lg leading-relaxed">
-                    Beyond development, my professional experience has strengthened my analytical thinking, attention to detail, and problem-solving abilities. These qualities help me approach software engineering with a structured mindset and a focus on writing clean, maintainable, and efficient code.
+                    I bring an analytical, detail-focused mindset to writing clean, maintainable code.
                   </p>
                 </span>
               </li>
@@ -47,7 +46,7 @@ const CareerObjective = () => {
                 <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#FF5005]" />
                 <span>
                   <p className="text-[#C9C9C9]/95 text-lg leading-relaxed">
-                    I specialize in developing responsive user interfaces, designing scalable backend APIs, and building applications using modern technologies such as React, Node.js, Express.js, MongoDB, and related tools within the JavaScript ecosystem. I enjoy transforming ideas into reliable, high-quality solutions while continuously expanding my technical expertise.
+                    I work across the stack with React, Node.js, Express.js, and MongoDB.
                   </p>
                 </span>
               </li>
@@ -55,7 +54,7 @@ const CareerObjective = () => {
                 <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#FF5005]" />
                 <span>
                   <p className="text-[#C9C9C9]/95 text-lg leading-relaxed">
-                    My goal is to contribute to meaningful products that create real value for users, collaborate with talented teams, and keep growing as a software engineer through continuous learning and hands-on experience.
+                    My goal: build real value, grow with great teams, and keep learning.
                   </p>
                 </span>
               </li>
@@ -75,8 +74,7 @@ const CareerObjective = () => {
                 Problem Solving
               </h4>
               <p className="text-sm text-[#C9C9C9] mt-2">
-                I enjoy breaking down complex problems into simple, scalable
-                engineering solutions.
+                Breaking down complex problems into simple solutions.
               </p>
             </div>
 
@@ -91,8 +89,7 @@ const CareerObjective = () => {
                 Clean Architecture
               </h4>
               <p className="text-sm text-[#C9C9C9] mt-2">
-                I focus on writing maintainable, modular, and scalable code
-                structures.
+                Writing maintainable, modular, scalable code.
               </p>
             </div>
 
@@ -107,8 +104,7 @@ const CareerObjective = () => {
                 Continuous Learning
               </h4>
               <p className="text-sm text-[#C9C9C9] mt-2">
-                I constantly explore new technologies and improve my development
-                workflow.
+                Always exploring new tools and workflows.
               </p>
             </div>
           </div>

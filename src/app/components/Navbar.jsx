@@ -96,7 +96,7 @@ const Navbar = () => {
         </div>
 
         <div>
-          <a href="/masad_rayan_cv.pdf" download="Masad_Rayan_CV.pdf">
+          <a href="/Masad_Rayan_CV(Full Stack Developer)_copy.pdf" download="Masad_Rayan_CV(Full Stack Developer)_copy.pdf">
             <span className="text-white btn bg-[#FF500599] px-4 py-2 rounded-lg font-funnel font-semibold text-lg cursor-pointer hover:scale-105 hover:text-white">
               Download CV
             </span>
