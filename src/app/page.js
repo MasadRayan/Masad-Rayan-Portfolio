@@ -1,4 +1,4 @@
-import Particles from "@/components/Particles";
+import Particles from "@/components/AdaptiveParticles";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import ClickSpark from "@/components/ClickSpark";
@@ -10,6 +10,8 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import GotoTopButton from "./components/GotoTopButton";
 import JobExperience from "./components/JobExperience";
+
+export const dynamic = "force-static";
 
 export default function Home() {
   return (

@@ -42,7 +42,6 @@ const ProjectSection = () => {
                 >
                   <Image
                     src={project.image}
-                    loading="eager"
                     height={1000}
                     width={1000}
                     alt={`${project.title} thumbnail`}

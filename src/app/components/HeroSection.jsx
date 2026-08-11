@@ -47,7 +47,7 @@ const HeroSection = () => {
                         <div className="mx-2 flex-1">
                             <div className="relative mt-2 aspect-3/4 w-full">
                                 <Image
-                                    loading="eager"
+                                    priority
                                     className="absolute inset-0 h-full w-full rounded-2xl object-cover "
                                     alt="Masad Rayan "
                                     src="/masad.jpg"

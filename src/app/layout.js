@@ -1,4 +1,4 @@
-import { Inter, Funnel_Display } from "next/font/google";
+import { Funnel_Display } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "react-hot-toast";
 
