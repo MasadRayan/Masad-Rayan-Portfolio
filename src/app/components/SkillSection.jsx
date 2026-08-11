@@ -12,6 +12,14 @@ const CATEGORY_CONFIG = {
   Tools: { icon: Wrench, accent: "#A78BFA", tint: "rgba(167, 139, 250, 0.12)" },
 };
 
+// Curated display order per category (data array stays untouched).
+const ORDER = {
+  Frontend: [6, 7, 4, 5, 3, 1, 2, 15, 12],
+  Backend: [8, 9, 29, 19, 27, 28, 17, 18],
+  Database: [10, 11, 25, 23, 24, 26],
+  Tools: [13, 14, 30, 31, 22, 32, 16, 20, 21],
+};
+
 // Display grouping for the existing skills data (data array stays untouched).
 const ASSIGN = {
   1: "Frontend", 2: "Frontend", 3: "Frontend", 4: "Frontend", 5: "Frontend",
@@ -49,7 +57,7 @@ const SkillPanel = ({ category, skills, index }) => {
       ref={ref}
       style={{ transitionDelay: `${index * 100}ms` }}
       className={cn(
-        "rounded-2xl border border-white/10 bg-white/5 backdrop-blur-lg p-6 shadow-md",
+        "flex h-full flex-col rounded-2xl border border-white/10 bg-white/5 backdrop-blur-lg p-6 shadow-md",
         "transition-all duration-700 ease-out will-change-transform",
         visible
           ? "opacity-100 translate-y-0"
@@ -81,18 +89,20 @@ const SkillPanel = ({ category, skills, index }) => {
         </span>
       </div>
 
-      <ul className="flex flex-wrap gap-2.5">
+      <ul className="grid grid-cols-2 gap-2.5">
         {skills.map((skill) => (
           <li
             key={skill.id}
-            className="flex items-center gap-2.5 rounded-lg border border-white/10 bg-white/5 px-3 py-2 text-sm text-neutral-200 transition hover:-translate-y-0.5 hover:border-white/25"
+            className="flex flex-col items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/5 px-2 py-4 text-center transition hover:-translate-y-0.5 hover:border-white/25 hover:bg-white/10"
           >
             <span
               aria-hidden
-              className="flex h-6 w-6 items-center justify-center [&_svg]:h-6 [&_svg]:w-6"
+              className="flex h-9 w-full items-center justify-center [&_svg]:h-auto [&_svg]:w-auto [&_svg]:max-h-8 [&_svg]:max-w-8"
               dangerouslySetInnerHTML={{ __html: skill.svg }}
             />
-            <span className="font-medium">{skill.name}</span>
+            <span className="text-xs font-medium text-neutral-200">
+              {skill.name}
+            </span>
           </li>
         ))}
       </ul>
@@ -325,7 +335,9 @@ const SkillSection = () => {
 
   const grouped = CATEGORY_ORDER.map((category) => ({
     category,
-    skills: skills.filter((skill) => ASSIGN[skill.id] === category),
+    skills: skills
+      .filter((skill) => ASSIGN[skill.id] === category)
+      .sort((a, b) => ORDER[category].indexOf(a.id) - ORDER[category].indexOf(b.id)),
   }));
 
   return (
